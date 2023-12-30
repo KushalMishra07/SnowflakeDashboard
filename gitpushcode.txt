@@ -1,0 +1,925 @@
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ touch names.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        names.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git add names.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   names.txt
+
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git commit -m "name.txt added from git bash"
+[main 979436d] name.txt added from git bash
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 names.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ vi names.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ ls
+names.txt  README.md
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ cat names.txt
+Kushal Mishra
+Mishra Kushal
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   names.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git add names.txt
+warning: LF will be replaced by CRLF in names.txt.
+The file will have its original line endings in your working directory
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   names.txt
+
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git commit -m "Making changes to the file using git bash and vim"
+[main c456b80] Making changes to the file using git bash and vim
+ 1 file changed, 2 insertions(+)
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ vi names.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   names.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git restore --staged names.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   names.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git add names.txt
+warning: LF will be replaced by CRLF in names.txt.
+The file will have its original line endings in your working directory
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git commit -m "Git file has been added to the staged area after getting removed from the staged by using command git restore --staged names.txt"
+[main 5720fb4] Git file has been added to the staged area after getting removed from the staged by using command git restore --staged names.txt
+ 1 file changed, 3 insertions(+)
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ ls
+names.txt  README.md
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ cat names.txt
+Kushal Mishra
+Mishra Kushal
+Batman Begins
+Batman Continues
+Batman Removed
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git log
+commit 5720fb44237deaebc2b57f59085e0b2e37e77f3a (HEAD -> main)
+Author: KushalMishra07 <godsownenvoy@gmail.com>
+Date:   Sat Dec 30 17:19:49 2023 +0530
+
+    Git file has been added to the staged area after getting removed from the staged by using command git restore --staged names.txt
+
+commit c456b80a51719c06dbdf583cfef2ffb136d9f351
+Author: KushalMishra07 <godsownenvoy@gmail.com>
+Date:   Sat Dec 30 17:15:27 2023 +0530
+
+    Making changes to the file using git bash and vim
+
+commit 979436d88a7bf6832ead96a498341cebfac6e8d6
+Author: KushalMishra07 <godsownenvoy@gmail.com>
+Date:   Sat Dec 30 17:08:50 2023 +0530
+
+    name.txt added from git bash
+
+commit b3d34d7bd7a0a44cd411aba08e1a309fb0b1a46f (origin/main, origin/HEAD)
+Author: Kushal Mishra <105746840+KushalMishra07@users.noreply.github.com>
+Date:   Fri Dec 29 16:40:57 2023 +0530
+
+    Initial commit
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ cp names.txt  names2.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ ls
+names.txt  names2.txt  README.md
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        names2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git add names2.txt
+warning: LF will be replaced by CRLF in names2.txt.
+The file will have its original line endings in your working directory
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git commit
+Aborting commit due to empty commit message.
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git commit
+[main 1c89efb] Just another message
+ 1 file changed, 5 insertions(+)
+ create mode 100644 names2.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git commit -m "Adding a message, Adding names2 copied file from stage area"
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git log
+commit 1c89efbedd13bb43ace22ef5291303400d411157 (HEAD -> main)
+Author: KushalMishra07 <godsownenvoy@gmail.com>
+Date:   Sat Dec 30 17:28:32 2023 +0530
+
+    Just another message
+
+commit 5720fb44237deaebc2b57f59085e0b2e37e77f3a
+Author: KushalMishra07 <godsownenvoy@gmail.com>
+Date:   Sat Dec 30 17:19:49 2023 +0530
+
+    Git file has been added to the staged area after getting removed from the staged by using command git restore --staged names.txt
+
+commit c456b80a51719c06dbdf583cfef2ffb136d9f351
+Author: KushalMishra07 <godsownenvoy@gmail.com>
+Date:   Sat Dec 30 17:15:27 2023 +0530
+
+    Making changes to the file using git bash and vim
+
+commit 979436d88a7bf6832ead96a498341cebfac6e8d6
+Author: KushalMishra07 <godsownenvoy@gmail.com>
+Date:   Sat Dec 30 17:08:50 2023 +0530
+
+    name.txt added from git bash
+
+commit b3d34d7bd7a0a44cd411aba08e1a309fb0b1a46f (origin/main, origin/HEAD)
+Author: Kushal Mishra <105746840+KushalMishra07@users.noreply.github.com>
+Date:   Fri Dec 29 16:40:57 2023 +0530
+
+    Initial commit
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ rm rf names2.txt
+rm: cannot remove 'rf': No such file or directory
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ rm names2.txt
+rm: cannot remove 'names2.txt': No such file or directory
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ ls
+names.txt  README.md
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    names2.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ cp names.txt names2.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ ls
+names.txt  names2.txt  README.md
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git add .
+warning: LF will be replaced by CRLF in names2.txt.
+The file will have its original line endings in your working directory
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git commit -m "Adding names2.txt"
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ ls
+names.txt  names2.txt  README.md
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ rm rf names2.txt
+rm: cannot remove 'rf': No such file or directory
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ rm names2.txt
+rm: cannot remove 'names2.txt': No such file or directory
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    names2.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git add .
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git commit
+[main 6961a5e] Test
+ 1 file changed, 5 deletions(-)
+ delete mode 100644 names2.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git log
+commit 6961a5e73c81d40609181114582e0b573b5c27ae (HEAD -> main)
+Author: KushalMishra07 <godsownenvoy@gmail.com>
+Date:   Sat Dec 30 17:39:20 2023 +0530
+
+    Test
+
+commit 1c89efbedd13bb43ace22ef5291303400d411157
+Author: KushalMishra07 <godsownenvoy@gmail.com>
+Date:   Sat Dec 30 17:28:32 2023 +0530
+
+    Just another message
+
+commit 5720fb44237deaebc2b57f59085e0b2e37e77f3a
+Author: KushalMishra07 <godsownenvoy@gmail.com>
+Date:   Sat Dec 30 17:19:49 2023 +0530
+
+    Git file has been added to the staged area after getting removed from the staged by using command git restore --staged names.txt
+
+commit c456b80a51719c06dbdf583cfef2ffb136d9f351
+Author: KushalMishra07 <godsownenvoy@gmail.com>
+Date:   Sat Dec 30 17:15:27 2023 +0530
+
+    Making changes to the file using git bash and vim
+
+commit 979436d88a7bf6832ead96a498341cebfac6e8d6
+Author: KushalMishra07 <godsownenvoy@gmail.com>
+Date:   Sat Dec 30 17:08:50 2023 +0530
+
+    name.txt added from git bash
+
+commit b3d34d7bd7a0a44cd411aba08e1a309fb0b1a46f (origin/main, origin/HEAD)
+Author: Kushal Mishra <105746840+KushalMishra07@users.noreply.github.com>
+Date:   Fri Dec 29 16:40:57 2023 +0530
+
+    Initial commit
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ ^C
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ ^C
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ ^C
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git reset 5720fb44237deaebc2b57f59085e0b2e37e77f3a
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git log
+commit 5720fb44237deaebc2b57f59085e0b2e37e77f3a (HEAD -> main)
+Author: KushalMishra07 <godsownenvoy@gmail.com>
+Date:   Sat Dec 30 17:19:49 2023 +0530
+
+    Git file has been added to the staged area after getting removed from the staged by using command git restore --staged names.txt
+
+commit c456b80a51719c06dbdf583cfef2ffb136d9f351
+Author: KushalMishra07 <godsownenvoy@gmail.com>
+Date:   Sat Dec 30 17:15:27 2023 +0530
+
+    Making changes to the file using git bash and vim
+
+commit 979436d88a7bf6832ead96a498341cebfac6e8d6
+Author: KushalMishra07 <godsownenvoy@gmail.com>
+Date:   Sat Dec 30 17:08:50 2023 +0530
+
+    name.txt added from git bash
+
+commit b3d34d7bd7a0a44cd411aba08e1a309fb0b1a46f (origin/main, origin/HEAD)
+Author: Kushal Mishra <105746840+KushalMishra07@users.noreply.github.com>
+Date:   Fri Dec 29 16:40:57 2023 +0530
+
+    Initial commit
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ ls
+names.txt  README.md
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ cp names.txt names2.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git add names2.txt
+warning: LF will be replaced by CRLF in names2.txt.
+The file will have its original line endings in your working directory
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git commit -m "Adding names2.txt"
+[main ff6e401] Adding names2.txt
+ 1 file changed, 5 insertions(+)
+ create mode 100644 names2.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ ls
+names.txt  names2.txt  README.md
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ rm  names2.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    names2.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git log
+commit ff6e401629a7a716a5a7b423d8229aec85f45113 (HEAD -> main)
+Author: KushalMishra07 <godsownenvoy@gmail.com>
+Date:   Sat Dec 30 17:42:26 2023 +0530
+
+    Adding names2.txt
+
+commit 5720fb44237deaebc2b57f59085e0b2e37e77f3a
+Author: KushalMishra07 <godsownenvoy@gmail.com>
+Date:   Sat Dec 30 17:19:49 2023 +0530
+
+    Git file has been added to the staged area after getting removed from the staged by using command git restore --staged names.txt
+
+commit c456b80a51719c06dbdf583cfef2ffb136d9f351
+Author: KushalMishra07 <godsownenvoy@gmail.com>
+Date:   Sat Dec 30 17:15:27 2023 +0530
+
+    Making changes to the file using git bash and vim
+
+commit 979436d88a7bf6832ead96a498341cebfac6e8d6
+Author: KushalMishra07 <godsownenvoy@gmail.com>
+Date:   Sat Dec 30 17:08:50 2023 +0530
+
+    name.txt added from git bash
+
+commit b3d34d7bd7a0a44cd411aba08e1a309fb0b1a46f (origin/main, origin/HEAD)
+Author: Kushal Mishra <105746840+KushalMishra07@users.noreply.github.com>
+Date:   Fri Dec 29 16:40:57 2023 +0530
+
+    Initial commit
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git add .
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git commit -m "Commit after deletion"
+[main 9462660] Commit after deletion
+ 1 file changed, 5 deletions(-)
+ delete mode 100644 names2.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git log
+commit 94626606cd6c0673b6e03884edd3ebe61e42f337 (HEAD -> main)
+Author: KushalMishra07 <godsownenvoy@gmail.com>
+Date:   Sat Dec 30 17:43:48 2023 +0530
+
+    Commit after deletion
+
+commit ff6e401629a7a716a5a7b423d8229aec85f45113
+Author: KushalMishra07 <godsownenvoy@gmail.com>
+Date:   Sat Dec 30 17:42:26 2023 +0530
+
+    Adding names2.txt
+
+commit 5720fb44237deaebc2b57f59085e0b2e37e77f3a
+Author: KushalMishra07 <godsownenvoy@gmail.com>
+Date:   Sat Dec 30 17:19:49 2023 +0530
+
+    Git file has been added to the staged area after getting removed from the staged by using command git restore --staged names.txt
+
+commit c456b80a51719c06dbdf583cfef2ffb136d9f351
+Author: KushalMishra07 <godsownenvoy@gmail.com>
+Date:   Sat Dec 30 17:15:27 2023 +0530
+
+    Making changes to the file using git bash and vim
+
+commit 979436d88a7bf6832ead96a498341cebfac6e8d6
+Author: KushalMishra07 <godsownenvoy@gmail.com>
+Date:   Sat Dec 30 17:08:50 2023 +0530
+
+    name.txt added from git bash
+
+commit b3d34d7bd7a0a44cd411aba08e1a309fb0b1a46f (origin/main, origin/HEAD)
+Author: Kushal Mishra <105746840+KushalMishra07@users.noreply.github.com>
+Date:   Fri Dec 29 16:40:57 2023 +0530
+
+    Initial commit
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git reset ff6e401629a7a716a5a7b423d8229aec85f45113
+Unstaged changes after reset:
+D       names2.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    names2.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ ls
+names.txt  README.md
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git add .
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    names2.txt
+
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ touch surnames.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ vi surnames.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ cat surnames
+cat: surnames: No such file or directory
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ cat surnames.txt
+Mishra
+Pandey
+Shukla
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ touch city.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ touch country.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ vi city.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ vi country.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    names2.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        city.txt
+        country.txt
+        surnames.txt
+
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git add .
+warning: LF will be replaced by CRLF in city.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in country.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in surnames.txt.
+The file will have its original line endings in your working directory
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   city.txt
+        new file:   country.txt
+        deleted:    names2.txt
+        new file:   surnames.txt
+
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git stash
+Saved working directory and index state WIP on main: ff6e401 Adding names2.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git log
+commit ff6e401629a7a716a5a7b423d8229aec85f45113 (HEAD -> main)
+Author: KushalMishra07 <godsownenvoy@gmail.com>
+Date:   Sat Dec 30 17:42:26 2023 +0530
+
+    Adding names2.txt
+
+commit 5720fb44237deaebc2b57f59085e0b2e37e77f3a
+Author: KushalMishra07 <godsownenvoy@gmail.com>
+Date:   Sat Dec 30 17:19:49 2023 +0530
+
+    Git file has been added to the staged area after getting removed from the staged by using command git restore --staged names.txt
+
+commit c456b80a51719c06dbdf583cfef2ffb136d9f351
+Author: KushalMishra07 <godsownenvoy@gmail.com>
+Date:   Sat Dec 30 17:15:27 2023 +0530
+
+    Making changes to the file using git bash and vim
+
+commit 979436d88a7bf6832ead96a498341cebfac6e8d6
+Author: KushalMishra07 <godsownenvoy@gmail.com>
+Date:   Sat Dec 30 17:08:50 2023 +0530
+
+    name.txt added from git bash
+
+commit b3d34d7bd7a0a44cd411aba08e1a309fb0b1a46f (origin/main, origin/HEAD)
+Author: Kushal Mishra <105746840+KushalMishra07@users.noreply.github.com>
+Date:   Fri Dec 29 16:40:57 2023 +0530
+
+    Initial commit
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ ls
+names.txt  names2.txt  README.md
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git stash pop
+Removing names2.txt
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   city.txt
+        new file:   country.txt
+        new file:   surnames.txt
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    names2.txt
+
+Dropped refs/stash@{0} (ac24779cfcf17829e0d1bb6a5d5b4e9c275eb91a)
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   city.txt
+        new file:   country.txt
+        new file:   surnames.txt
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    names2.txt
+
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git stash
+Saved working directory and index state WIP on main: ff6e401 Adding names2.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git stash pop
+Removing names2.txt
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   city.txt
+        new file:   country.txt
+        new file:   surnames.txt
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    names2.txt
+
+Dropped refs/stash@{0} (3b0b959f756cdfc13c6cc643dac01dd552115529)
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git add .
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git commit -m "adding stash changes to commit main branch"
+[main 79f5992] adding stash changes to commit main branch
+ 4 files changed, 14 insertions(+), 5 deletions(-)
+ create mode 100644 city.txt
+ create mode 100644 country.txt
+ delete mode 100644 names2.txt
+ create mode 100644 surnames.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 5 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ cp names.txt names3.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git add .
+warning: LF will be replaced by CRLF in names3.txt.
+The file will have its original line endings in your working directory
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 5 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   names3.txt
+
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git stash
+Saved working directory and index state WIP on main: 79f5992 adding stash changes to commit main branch
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git log
+commit 79f5992dcd8dd03b04f38b40e16403800f4b09cc (HEAD -> main)
+Author: KushalMishra07 <godsownenvoy@gmail.com>
+Date:   Sat Dec 30 18:00:21 2023 +0530
+
+    adding stash changes to commit main branch
+
+commit ff6e401629a7a716a5a7b423d8229aec85f45113
+Author: KushalMishra07 <godsownenvoy@gmail.com>
+Date:   Sat Dec 30 17:42:26 2023 +0530
+
+    Adding names2.txt
+
+commit 5720fb44237deaebc2b57f59085e0b2e37e77f3a
+Author: KushalMishra07 <godsownenvoy@gmail.com>
+Date:   Sat Dec 30 17:19:49 2023 +0530
+
+    Git file has been added to the staged area after getting removed from the staged by using command git restore --staged names.txt
+
+commit c456b80a51719c06dbdf583cfef2ffb136d9f351
+Author: KushalMishra07 <godsownenvoy@gmail.com>
+Date:   Sat Dec 30 17:15:27 2023 +0530
+
+    Making changes to the file using git bash and vim
+
+commit 979436d88a7bf6832ead96a498341cebfac6e8d6
+Author: KushalMishra07 <godsownenvoy@gmail.com>
+Date:   Sat Dec 30 17:08:50 2023 +0530
+
+    name.txt added from git bash
+
+commit b3d34d7bd7a0a44cd411aba08e1a309fb0b1a46f (origin/main, origin/HEAD)
+Author: Kushal Mishra <105746840+KushalMishra07@users.noreply.github.com>
+Date:   Fri Dec 29 16:40:57 2023 +0530
+
+    Initial commit
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 5 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ ls
+city.txt  country.txt  names.txt  README.md  surnames.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git stash pop
+On branch main
+Your branch is ahead of 'origin/main' by 5 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   names3.txt
+
+Dropped refs/stash@{0} (b5643f43b65703d384ede6b8d5f128af3d73513c)
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git stash
+Saved working directory and index state WIP on main: 79f5992 adding stash changes to commit main branch
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git stash clear
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ ls
+city.txt  country.txt  names.txt  README.md  surnames.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git commit
+On branch main
+Your branch is ahead of 'origin/main' by 5 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'git@github.com:KushalMishra07/SnowflakeDashboard.git'
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git push origin main
+Enter passphrase for key '/c/Users/Kushal Mishra/.ssh/id_ed25519':
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (16/16), 1.55 KiB | 395.00 KiB/s, done.
+Total 16 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), done.
+To github.com:KushalMishra07/SnowflakeDashboard.git
+   b3d34d7..79f5992  main -> main
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+
