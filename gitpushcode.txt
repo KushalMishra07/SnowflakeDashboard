@@ -1,3 +1,4 @@
+
 Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
 $ git status
 On branch main
@@ -1318,3 +1319,116 @@ branches.txt  city.txt  country.txt  creatingfromtest.txt  exam.txt  food.txt  g
 Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (test)
 $ pwd
 /c/Users/Kushal Mishra/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (test)
+$ git status
+On branch test
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   gitpushcode.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (test)
+$ git add gitpushcode.txt
+warning: LF will be replaced by CRLF in gitpushcode.txt.
+The file will have its original line endings in your working directory
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (test)
+$ git checkout main
+Switched to branch 'main'
+M       gitpushcode.txt
+Your branch is up to date with 'origin/main'.
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   gitpushcode.txt
+
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git add .
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   gitpushcode.txt
+
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git commit -m "adding git code"
+[main 167928e] adding git code
+ 1 file changed, 395 insertions(+)
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git push origin main
+Enter passphrase for key '/c/Users/Kushal Mishra/.ssh/id_ed25519':
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.92 KiB | 1.92 MiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:KushalMishra07/SnowflakeDashboard.git
+   8c66855..167928e  main -> main
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git touch Happy_New_Year_2024.txt
+git: 'touch' is not a git command. See 'git --help'.
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ touch Happy_New_Year_2024.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ vi Happy_New_Year_2024.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git add .
+warning: LF will be replaced by CRLF in Happy_New_Year_2024.txt.
+The file will have its original line endings in your working directory
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git commit -m "Happy New Year 2024"
+[main 5df90e1] Happy New Year 2024
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Happy_New_Year_2024.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git push origin main
+Enter passphrase for key '/c/Users/Kushal Mishra/.ssh/id_ed25519':
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 350 bytes | 350.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:KushalMishra07/SnowflakeDashboard.git
+   167928e..5df90e1  main -> main
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
