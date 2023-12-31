@@ -922,4 +922,399 @@ To github.com:KushalMishra07/SnowflakeDashboard.git
    b3d34d7..79f5992  main -> main
 
 Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ touch gitpushcode.txt
 
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ vi gitpushcode.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git push origin main
+Enter passphrase for key '/c/Users/Kushal Mishra/.ssh/id_ed25519':
+Everything up-to-date
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git add .
+warning: LF will be replaced by CRLF in gitpushcode.txt.
+The file will have its original line endings in your working directory
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git commit -m "Adding git code to push through cli"
+[main a744443] Adding git code to push through cli
+ 1 file changed, 925 insertions(+)
+ create mode 100644 gitpushcode.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git push origin main
+Enter passphrase for key '/c/Users/Kushal Mishra/.ssh/id_ed25519':
+Enter passphrase for key '/c/Users/Kushal Mishra/.ssh/id_ed25519':
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 2.85 KiB | 2.85 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:KushalMishra07/SnowflakeDashboard.git
+   79f5992..a744443  main -> main
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ touch branches.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ vi branches.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ cat branches.txt
+Test
+DEV
+
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ touch exam.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ vi exam.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ cat exam
+cat: exam: No such file or directory
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ cat exam.txt
+Cat
+MAt
+SAT
+GRE
+
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ touch rollno.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        branches.txt
+        exam.txt
+        rollno.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ touch food.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ vi food.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git add .
+warning: LF will be replaced by CRLF in branches.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in exam.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in food.txt.
+The file will have its original line endings in your working directory
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git remote -v
+origin  git@github.com:KushalMishra07/SnowflakeDashboard.git (fetch)
+origin  git@github.com:KushalMishra07/SnowflakeDashboard.git (push)
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$
+
+
+
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$
+
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$
+
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   branches.txt
+        new file:   exam.txt
+        new file:   food.txt
+        new file:   rollno.txt
+
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git add .
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git commit -m "Commit adding other files"
+[main 416a70a] Commit adding other files
+ 4 files changed, 9 insertions(+)
+ create mode 100644 branches.txt
+ create mode 100644 exam.txt
+ create mode 100644 food.txt
+ create mode 100644 rollno.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'git@github.com:KushalMishra07/SnowflakeDashboard.git'
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git push origin main
+Enter passphrase for key '/c/Users/Kushal Mishra/.ssh/id_ed25519':
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (6/6), 499 bytes | 249.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:KushalMishra07/SnowflakeDashboard.git
+   a744443..416a70a  main -> main
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ dir
+branches.txt  city.txt  country.txt  exam.txt  food.txt  gitpushcode.txt  names.txt  README.md  rollno.txt  surnames.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ pwd
+/c/Users/Kushal Mishra/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ cd ..
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard (master)
+$ cd ..
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects (master)
+$ pwd
+/c/Users/Kushal Mishra/Documents/Projects
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects (master)
+$ git clone git@github.com:KushalMishra07/Git_Fads.git
+Cloning into 'Git_Fads'...
+Enter passphrase for key '/c/Users/Kushal Mishra/.ssh/id_ed25519':
+remote: Enumerating objects: 24, done.
+remote: Counting objects: 100% (24/24), done.
+remote: Compressing objects: 100% (17/17), done.
+remote: Total 24 (delta 1), reused 11 (delta 0), pack-reused 0
+Receiving objects: 100% (24/24), 4.09 KiB | 419.00 KiB/s, done.
+Resolving deltas: 100% (1/1), done.
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects (master)
+$ pwd
+/c/Users/Kushal Mishra/Documents/Projects
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects (master)
+$ ls
+aws-cli/  Git_Fads/  PythonTut/  SnowflakeDashboard/
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects (master)
+$ cd SnowflakeDashboard
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard (master)
+$ ls
+SnowflakeDashboard/
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard (master)
+$ cd SnowflakeDashboard
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ ld
+bash: ld: command not found
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ ls
+branches.txt  city.txt  country.txt  exam.txt  food.txt  gitpushcode.txt  names.txt  README.md  rollno.txt  surnames.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git log
+commit 416a70a206c75d8a384d87b4969ee149163fa328 (HEAD -> main, origin/main, origin/HEAD)
+Author: KushalMishra07 <godsownenvoy@gmail.com>
+Date:   Sat Dec 30 21:09:57 2023 +0530
+
+    Commit adding other files
+
+commit a74444395ea6f2d902db0d800011cf52611ff935
+Author: KushalMishra07 <godsownenvoy@gmail.com>
+Date:   Sat Dec 30 18:11:08 2023 +0530
+
+    Adding git code to push through cli
+
+commit 79f5992dcd8dd03b04f38b40e16403800f4b09cc
+Author: KushalMishra07 <godsownenvoy@gmail.com>
+Date:   Sat Dec 30 18:00:21 2023 +0530
+
+    adding stash changes to commit main branch
+
+commit ff6e401629a7a716a5a7b423d8229aec85f45113
+Author: KushalMishra07 <godsownenvoy@gmail.com>
+Date:   Sat Dec 30 17:42:26 2023 +0530
+
+    Adding names2.txt
+
+commit 5720fb44237deaebc2b57f59085e0b2e37e77f3a
+Author: KushalMishra07 <godsownenvoy@gmail.com>
+Date:   Sat Dec 30 17:19:49 2023 +0530
+
+    Git file has been added to the staged area after getting removed from the staged by using command git restore --staged names.txt
+
+commit c456b80a51719c06dbdf583cfef2ffb136d9f351
+Author: KushalMishra07 <godsownenvoy@gmail.com>
+Date:   Sat Dec 30 17:15:27 2023 +0530
+
+    Making changes to the file using git bash and vim
+
+commit 979436d88a7bf6832ead96a498341cebfac6e8d6
+Author: KushalMishra07 <godsownenvoy@gmail.com>
+Date:   Sat Dec 30 17:08:50 2023 +0530
+
+    name.txt added from git bash
+
+commit b3d34d7bd7a0a44cd411aba08e1a309fb0b1a46f
+Author: Kushal Mishra <105746840+KushalMishra07@users.noreply.github.com>
+Date:   Fri Dec 29 16:40:57 2023 +0530
+
+    Initial commit
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ ls
+branches.txt  city.txt  country.txt  exam.txt  food.txt  gitpushcode.txt  names.txt  README.md  rollno.txt  surnames.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git branch test
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git checkout test
+Switched to branch 'test'
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (test)
+$ touch creatingfromtest.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (test)
+$ vi creatingfromtest.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (test)
+$ ls
+branches.txt  city.txt  country.txt  creatingfromtest.txt  exam.txt  food.txt  gitpushcode.txt  names.txt  README.md  rollno.txt  surnames.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (test)
+$ git add creatingfromtest.txt
+warning: LF will be replaced by CRLF in creatingfromtest.txt.
+The file will have its original line endings in your working directory
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (test)
+$ git commit -m "Creating a file in test branch in git bash and merging it to main"
+[test 8c66855] Creating a file in test branch in git bash and merging it to main
+ 1 file changed, 1 insertion(+)
+ create mode 100644 creatingfromtest.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (test)
+$ git status
+On branch test
+nothing to commit, working tree clean
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (test)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git pull origin main
+Enter passphrase for key '/c/Users/Kushal Mishra/.ssh/id_ed25519':
+From github.com:KushalMishra07/SnowflakeDashboard
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git merge test
+Updating 416a70a..8c66855
+Fast-forward
+ creatingfromtest.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 creatingfromtest.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git push origin main
+Enter passphrase for key '/c/Users/Kushal Mishra/.ssh/id_ed25519':
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 354 bytes | 354.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:KushalMishra07/SnowflakeDashboard.git
+   416a70a..8c66855  main -> main
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ ls
+branches.txt  city.txt  country.txt  creatingfromtest.txt  exam.txt  food.txt  gitpushcode.txt  names.txt  README.md  rollno.txt  surnames.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ ls -lrt
+total 45
+-rw-r--r-- 1 Kushal Mishra 197121    93 Dec 29 23:58 README.md
+-rw-r--r-- 1 Kushal Mishra 197121    76 Dec 30 17:16 names.txt
+-rw-r--r-- 1 Kushal Mishra 197121    34 Dec 30 17:58 country.txt
+-rw-r--r-- 1 Kushal Mishra 197121    59 Dec 30 17:58 city.txt
+-rw-r--r-- 1 Kushal Mishra 197121    24 Dec 30 17:58 surnames.txt
+-rw-r--r-- 1 Kushal Mishra 197121 34441 Dec 30 18:10 gitpushcode.txt
+-rw-r--r-- 1 Kushal Mishra 197121    10 Dec 30 18:12 branches.txt
+-rw-r--r-- 1 Kushal Mishra 197121    17 Dec 30 18:14 exam.txt
+-rw-r--r-- 1 Kushal Mishra 197121     0 Dec 30 18:14 rollno.txt
+-rw-r--r-- 1 Kushal Mishra 197121    67 Dec 30 18:43 food.txt
+-rw-r--r-- 1 Kushal Mishra 197121    40 Dec 30 21:34 creatingfromtest.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (main)
+$ git checkout test
+Switched to branch 'test'
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (test)
+$ ls
+branches.txt  city.txt  country.txt  creatingfromtest.txt  exam.txt  food.txt  gitpushcode.txt  names.txt  README.md  rollno.txt  surnames.txt
+
+Kushal Mishra@LAPTOP-20E3UQG7 MINGW64 ~/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard (test)
+$ pwd
+/c/Users/Kushal Mishra/Documents/Projects/SnowflakeDashboard/SnowflakeDashboard
